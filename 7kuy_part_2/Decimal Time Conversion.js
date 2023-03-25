@@ -26,4 +26,3 @@ function toIndustrial(time) {
 function toNormal(time) {
     return Math.floor(time) + ':' + String(Math.round((time * 60) % 60)).padStart(2, '0')
 }
-
