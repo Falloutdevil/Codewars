@@ -23,3 +23,4 @@ function pattern(n) {
     }
     return res.join('\n');
 }
+
